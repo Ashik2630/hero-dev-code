@@ -32,6 +32,24 @@ body{
     cursor: pointer;
 }
 
+
+.about-heading{
+    max-width: 827px;
+    text-align: center;
+}
+
+.about-heading h2{
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
+.about-heading p{
+    font-size: 18px;
+    margin-bottom: 30px;
+    line-height: 30px;
+    color: #757575;
+}
+
 /* main styles */
 
 header{
@@ -106,3 +124,37 @@ nav .menu a{
     vertical-align: middle;
 }
 
+/* About Section styles */
+
+
+#about{
+  /* margin: 130px 230px 0 230px; */
+  padding-top: 130px;
+
+}
+
+.about-container{
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #FFF8F3;
+    padding: 131px 156px;
+}
+
+.about-info{
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-card p{
+    font-size: 20px;
+    line-height: 30px;
+    color: #757575;
+}
+
+.about-card h4{
+    font-size: 20px;
+    font-weight: bold;
+    
+}
